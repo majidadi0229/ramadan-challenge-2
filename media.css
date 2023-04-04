@@ -1,0 +1,243 @@
+@media screen and  (max-width: 512px){
+body{
+    background-color: lightgrey;
+}
+    .rapper {
+        width: 100%;
+        height: auto;
+        margin-inline: auto;
+        /* padding: 0.5rem; */
+      
+
+    }
+    header {
+        width: 100%;
+        height: 20%;
+       
+    }
+    .katsina{
+        width: 100%;
+      
+    }
+    .link > a {
+        display:none;
+    }
+    nav{
+        height: auto;
+        display: block;
+    }
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+    .img > h1{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .bar{
+        left: 0;
+    }
+    .our{
+        width: 50%;
+        padding: 8px;
+        border-radius: 40%;
+    }
+    main{
+        width: 100%;
+        height: auto;
+    }
+    main > h3{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bolder;
+    }
+article{
+    width: 100%;
+}
+div > abbr {
+    font-size: 1.2rem;
+}
+.button {
+    width: 30%;
+font-size: 10px;
+
+}
+.big {
+    width: 100%;
+    height: 100%;
+
+}
+h4{
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+hr{
+    bottom: 2rem;
+}
+.big > div {
+     width: 100%;
+display: grid;
+grid-template-columns: repeat(5,140px);
+    
+}
+.more {
+    width: 100%;
+    padding: 1rem ;
+    margin-left: 0;
+    font-size: 15px;
+    border: 1px solid;
+}
+
+.container{
+    width: 100%;
+    height: 5%;
+   
+ 
+
+}
+.years{
+    width: 50vw;
+font-size: 1.5rem;
+text-transform: capitalize;
+
+}
+.completed{
+    width: 50vw;
+    font-size: 1rem;
+text-transform: capitalize;
+margin-left: 4rem;  
+}
+h5{
+    font-size: 16px;
+}
+.wrapper > .latest{
+    width: 100%;
+    height: auto;
+   display: block;
+}
+.latest > div{
+    width: 100%;
+}
+.hr-1{
+    display: none;
+}
+.tittle{
+    width: 100%;
+    height: auto;
+    display: block;
+    gap: 0.5rem;
+}
+.tittle > div {
+    width: 100%;
+    height: 100%;
+   
+}
+ .view{
+    width: 40%;
+    position: relative;
+    top: 0.1rem;
+
+}
+section{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    bottom: 3.5rem;
+}
+
+.black{
+    width: 100%;
+    height: 100%;
+}
+label > .about{
+    width: 50%;
+    height: 15%;
+    
+}
+.video {
+    width: 100%;
+    height: 100%;
+   margin-bottom: 3rem;
+}
+.video > video{
+    width: 100vw;
+    height: 100%;
+}
+.online {
+width: 100%;
+height: 20%;
+}
+.call{
+    width: 50%;
+    height: 20%;
+   
+     font-size: 16px;
+    text-transform: lowercase;
+
+}
+.form{
+    width:50%;
+    padding: 0;
+    background-color:gold;
+}
+input {
+    width: 100%;
+ font-size: 16px;
+margin-top: 2rem;
+
+}
+form{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.build{
+    width: 100%;
+    background-color: plum;
+}
+ .form-1 > .hr{
+    width: 100%;
+    height: 100%;
+}
+.donec{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 2rem;
+    right: 0.5rem;
+}
+
+.form-1{
+    width: 100vw;
+    padding: 15%;
+    
+}
+.form-2{
+    position: relative;
+    margin-top: 2rem;
+    right: 2rem;
+}
+.hr {
+    width: 100%;
+    position: relative;
+    margin-top: 2rem;
+    right: 2rem;
+    
+   
+}
+.table{
+    width: 100vw;
+    height: 100%;
+    display: block;
+    
+}
+.star > div{
+ width: 100%;
+padding: 10%;
+}
+}
+
+
+
+    

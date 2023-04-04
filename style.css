@@ -1,0 +1,674 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    height: 100%;
+}
+
+.rapper {
+    max-width: 99vw;
+    height: auto;
+    margin-inline: auto;
+} 
+
+
+header {
+    width: 100%;
+    height: 50%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+
+}
+
+.katsina {
+    display: flex;
+    gap: 1rem;
+
+}
+
+a {
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.img {
+    width: 70%;
+    height: 60vh;
+    background-image: url("./media/img/4.jpg");
+    background-size: cover;
+    background-image: linear-gradient();
+}
+
+.img>h1 {
+    font-size: 4rem;
+    padding: 2rem;
+    color: PLUM;
+}
+
+.bar {
+    width: 10px;
+    height: 80px;
+    background-color: plum;
+    position: relative;
+    top: 6rem;
+    left: 1rem;
+}
+
+.img>p {
+    text-align: justify;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.our  {
+    width: 25%;
+    background-color: PLUM;
+    padding: 1.2rem;
+    font-weight: bolder;
+    border: 0vw;
+font-size: 17px;
+
+}
+
+main {
+    width: 30%;
+    height: 60vh;
+    background-color: plum;
+    padding: 1rem;
+}
+
+h3 {
+    font-size: 3rem;
+    color: black; 
+    padding: 1.5rem;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.development > .fas{
+    color: white;
+}
+main > div > p {
+    position: relative;
+    bottom: 4rem;
+    margin-left: 4rem;
+}
+
+.development>.web {
+    color: white;
+    padding: 0.1rem;
+
+}
+
+div > p {
+    font-size: 20px;
+}
+
+article {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    /* background-color: rgb(141, 27, 27) */
+}
+
+div> abbr {
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button {
+    width: 15%;
+    height: 4rem;
+    line-height: 2rem;
+    border: 1px solid plum;
+    color: plum;
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+aside {
+    max-width: 99vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+}
+
+aside> .picture {
+    width: 70vw;
+    height: 100vh;
+    background-image: url("./media/img/4.jpg");
+    background-size: cover;
+}
+
+.big {
+    width: 70vw;
+    height: 100%;
+    background-color: white;
+
+}
+
+h4 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    padding: 5rem;
+}
+hr {
+    width: 50px;
+    height: 5px;
+    background-color: plum;
+   position: relative;
+   left: 5rem;
+   bottom: 4rem;
+}
+.project {
+    width: 50vw;
+    height: 39%;
+    display: flex;
+    gap: 2.5rem;
+    padding: 5rem;
+    line-height: 1.5rem;
+
+}
+
+.learn {
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    gap: 2.5rem;
+    margin-left: 5rem;
+
+}
+
+.learn>div>p {
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+.more {
+    width: 20%;
+    height: 4rem;
+    line-height: 2rem;
+    border: 3px solid black;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    margin-left: 7rem;
+    font-weight: bolder;
+}
+
+.container {
+    max-width: 95vw;
+    height: 20vh;
+    display: flex;
+    position: relative;
+    bottom: 18rem;
+}
+
+.years {
+    width: 45vw;
+    background-color: plum;
+    text-align: center;
+    padding: 3rem;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.completed {
+    width: 45vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+h5 {
+    font-size: 3rem;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100%;
+    background-color: white;
+    margin-bottom: 4rem;
+
+}
+
+h6 {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+    padding: 2rem;
+}
+.hr-1{
+    margin-left: 43%;
+    margin-top: 3rem;
+}
+.latest {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.latest>div {
+    width: 20vw;
+    height: 30vh;
+    background-image: url("./media/img/4.jpg");
+    background-size: cover;
+    margin-bottom: 1rem;
+
+}
+
+h7 {
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-weight: bolder;
+    /* line-height: 3rem; */
+    padding: 8px;
+}
+
+label {
+    width: 20%;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    line-height: 8rem;
+}
+
+.tittle {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tittle>div {
+    width: 20vw;
+    height: 50vh;
+    border: 1px solid;
+    padding: 2rem;
+
+
+}
+.tittle > div > p{
+    padding: 5px;
+}
+
+.view {
+    width: 15%;
+    height: 3rem;
+    border: 4px solid black;
+    color: black;
+    text-align: center;
+    padding: 0.6rem;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0.5rem;
+    top: 1.5rem;
+}
+
+.wrapper > .view {
+    position: relative;
+    left: 42%;
+
+}
+
+section {
+    width: 100vw;
+    height: 60%;
+    display: flex;
+
+}
+
+.black {
+    width: 30vw;
+    height: 80%;
+    background-color: black;
+    padding: 5%;
+    margin-bottom: 2rem;
+}
+.yellow{
+    background-color: yellow;
+   bottom: 2rem;
+  left: .05rem;
+}
+
+.black>p {
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: white;
+    word-spacing: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.black > h8 {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2rem;
+    color: white;
+
+}
+
+.about  {
+    width: 20%;
+    border: 5px solid plum;
+    color: plum;
+    padding: 1rem;
+}
+
+.video {
+    width: 70vw;
+    height: 100%;
+
+}
+
+.video>video {
+    width: 70vw;
+    height: 100%;
+}
+
+.online {
+    display: flex;
+}
+
+.call {
+    width: 35vw;
+    background-color: plum;
+    text-align: center;
+    padding: 3rem;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+.form {
+    width: 35vw;
+    background-color: ligh;
+    text-align: center;
+    padding: 4rem;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+input {
+    width: 60%;
+    padding: 0.8rem;
+    border: 5px solid;
+    border-top: dotted;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+}
+
+form {
+    max-width: 99vw;
+    height: 100%;
+    background-color: lightgrey;
+    display: flex;
+    position: relative;
+    bottom: 3rem;
+}
+
+.build {
+    width: 40vw;
+    height: 40%;
+    padding: 10%;
+
+
+}
+
+h11 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 3rem;
+}
+.yellow-1 {
+    top: 0.3rem;
+    background-color: yellow;
+    left: 0;
+
+}
+
+address {
+    font-size: 20px;
+    line-height: 3rem;
+   
+}
+
+.touch {
+    width: 60%;
+    border: 5px solid plum;
+    color: plum;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+.donec {
+    width: 50vw;
+    height: 80%;
+    padding: 5%;
+   
+
+}
+
+.form-1 {
+    width: 40vw;
+    height: 40%;
+    
+}
+
+.form-2 {
+    font-size: 1rem;
+    text-transform: capitalize;
+    background-color: white;
+    padding: 2rem;
+
+}
+
+.eget {
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.hr-4{
+    position: relative;
+    top: 0.0rem;
+    background-color: lightgrey;
+}
+
+.hr {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 1.3rem;
+    background-color: white;
+    font-weight: bolder;
+}
+.hr > div > .fas{
+    color: plum;
+}
+#bad-guy {
+    color: plum;
+}
+
+.table {
+    max-width: 90vw;
+    height: 100%;
+    padding: 10%;
+position: relative;
+right: 9rem;
+}
+
+.client  {
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    left: 2rem;
+
+}
+
+.star {
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    position: relative;
+    right: 24rem;
+
+}
+
+.star > div {
+    border: 1px solid;
+    padding: 3rem;
+    background-color: white;
+    margin-right: 3rem ;
+   
+}
+.star > div > .fas{
+    color: plum;
+}
+.star > p{
+padding: 1.5rem;
+
+
+}
+.star > div > i{
+    padding: 5px;
+    margin-bottom: 1rem;
+    
+}
+ .john{
+    padding: 5px;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+    line-height: 3rem;
+}
+.crosswill{
+   max-width:90vw;
+    height: 100%;
+    
+   
+   
+}
+.jobline > div {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 3rem;
+    position: relative;
+    right: 23rem;
+    padding: 3rem ;
+ 
+}
+.end {
+    max-width: 95vw;
+    height: 100%;
+    position: relative;
+    right: 30rem;
+    display: flex;
+}
+.contact {
+    display: flex;
+    position: relative;
+    right: 7rem;
+   
+}
+.us > h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding: 2rem;
+}
+.us {
+    width: 50vw;
+    height: 100%;
+    padding: 5%;
+    position: relative;
+    left: 2rem;
+    background-color: plum;
+   line-height: 2rem;
+}
+.last {
+    width: 20vw;
+    border: 1px solid;
+    gap: 15px;
+
+}
+textarea{
+    margin: 10px;
+}
+.massage{
+    width: 50%;
+    border: 4px solid lightgrey;
+    background-color: red;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: lightgray;
+    margin-left: 9rem;
+}
+.facebook {
+    width: 45vw;
+    height: 100%;
+    
+    
+}
+.header-1{
+    width: 45vw;
+    height: 40%;
+    background-color: black;
+}
+.header-1 > i {
+    color: white;
+    position: relative;
+   
+    padding: 5rem;
+
+}
+ .font > P >  i{
+
+    position: relative;
+    left: 0.5rem;
+    padding: 1rem;
+
+}
+.font > P{
+    margin-left: 4rem;
+}
